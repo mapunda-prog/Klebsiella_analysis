@@ -2,6 +2,7 @@
 library(readxl)
 library(tidyverse)
 library(rio)
+library(cowplot)
 
 
 #importing data_set and inspection
@@ -20,7 +21,7 @@ AMR_class <- table(AMR$sample_id, AMR$class)
 AMR_subclass <- table(AMR$sample_id, AMR$subclass)
 
 #creating stalked bar plots
-ggplot(AMR, aes(x= sample_id, fill = class)) +
+plot_A <- ggplot(AMR, aes(x= sample_id, fill = class)) +
   geom_bar(position = "stack") + 
   theme(axis.text = element_text(angle = 45 , hjust = 1)) +
   labs(x = "Sample ID", y = "COunt", title = "AMR classes by sample ID")
