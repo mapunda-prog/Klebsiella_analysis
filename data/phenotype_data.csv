@@ -1,0 +1,11 @@
+Sample ID,organism,AMK,TET,SXT,IMP,MEM,CAZ,CRO,GN,CIP
+MNH_01,Klebsiella Variicola,S,S,S,S,R,R,S,S,R
+MNH_03,Klebsiella pneumoniae,S,I,R,R,R,R,R,R,R
+MNH_04,Klebsiella pneumoniae,S,S,S,S,R,R,R,R,R
+MNH_05,Klebsiella pneumoniae,S,R,R,S,R,R,R,R,R
+MNH_06,Klebsiella pneumoniae,S,R,R,S,R,R,R,R,R
+MNH_07,Klebsiella Variicola,S,R,S,S,R,R,S,S,R
+MNH_10,Klebsiella pneumoniae,S,,S,S,R,R,R,R,R
+MNH_14,Klebsiella pneumoniae,R,S,R,R,R,R,R,R,R
+MNH_15,Klebsiella pneumoniae,S,R,R,S,R,R,R,S,R
+MNH_16,Klebsiella pneumoniae,S,S,R,S,R,R,R,R,R
